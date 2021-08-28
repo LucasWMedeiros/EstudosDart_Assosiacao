@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "console": "terminal",
+            "console": "externalTerminal",
             "name": "atividade_assosiacao",
             "request": "launch",
             "type": "dart"
