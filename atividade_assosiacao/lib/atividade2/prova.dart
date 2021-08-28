@@ -1,6 +1,8 @@
 import 'dart:io';
 
 import 'questoes.dart';
+class Prova{
+
 
   List<Questoes> questoes = [];
   List<String> resp =[];
@@ -38,7 +40,7 @@ import 'questoes.dart';
     }
   }
 
-  void main(List<String> args) {
+  void executarProva() {
     inicializarLista();
     printQuestoes();
     corrigir();
@@ -49,4 +51,5 @@ import 'questoes.dart';
     } else {
       print('Você reprovou e teve nota $nota');
     }
+}
 }

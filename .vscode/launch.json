@@ -7,8 +7,10 @@
         {
             "console": "externalTerminal",
             "name": "atividade_assosiacao",
+            "cwd": "atividade_assosiacao",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "program": "bin/main.dart"
         }
     ]
 }
